@@ -5,6 +5,7 @@ locals {
   aws_az_3           = "us-east-1c"
 
   tags = {
-    Name = "canopy-common"
+    created-by = "canopy-common"
+    environment = var.environment
   }
 }

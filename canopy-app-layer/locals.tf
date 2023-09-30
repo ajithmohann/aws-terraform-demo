@@ -5,7 +5,7 @@ locals {
   aws_az_3           = "us-east-1c"
 
   tags = {
-    Name        = "canopy-app-layer"
-    Environment = "development" # make this dynamic
+    created-by  = "canopy-app-layer"
+    environment = var.environment
   }
 }
